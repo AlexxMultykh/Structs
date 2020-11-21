@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Structs
 {
-    public record Vector3
+    public struct Vector3
     {
         public double x { get; set; }
         public double y { get; set; }
